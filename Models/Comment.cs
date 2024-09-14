@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace FinShark.Models
 {
-    public class Comments
+    public class Comment
     {
         public int Id { get; set; }
 

@@ -58,7 +58,7 @@ namespace FinShark.Controllers
 
             if (!await _stockRepo.StockExists(stockId))
             {
-                return BadRequest("Estoque não existe");
+                return BadRequest("A ação não existe");
             }
 
 
